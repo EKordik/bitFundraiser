@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/BitFundraiser">
+      <Resource auth="Container" 
+                driverClassName="com.mysql.jdbc.Driver" 
+                maxIdle="4" 
+                maxTotal="8" 
+                name="jdbc/bit" 
+                password="admin" 
+                type="javax.sql.DataSource" 
+                url="jdbc:mysql://localhost:3306/bit_fund" 
+                username="root"/>
+</Context>
